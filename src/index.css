@@ -1,0 +1,62 @@
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=M+PLUS+1+Code:wght@100..700&family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&family=Reem+Kufi+Fun:wght@400..700&family=Tilt+Neon&display=swap");
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+  scroll-behavior: smooth;
+}
+
+@layer base {
+  body {
+    @apply bg-white font-sans dark:bg-black dark:text-white;
+  }
+  h1 {
+    @apply text-4xl sm:text-5xl md:text-6xl font-bold font-Josefin;
+  }
+  h2 {
+    @apply text-3xl sm:text-4xl font-bold;
+  }
+  h3 {
+    @apply text-2xl sm:text-3xl font-semibold;
+  }
+  li {
+    @apply relative;
+  }
+
+  input,
+  textarea {
+    @apply border-[1px] w-full z-30 relative focus:outline-none font-sans px-2 py-1 text-sm;
+  }
+}
+
+@layer components {
+  .navList {
+    @apply text-black cursor-pointer;
+  }
+
+  .GradinentBorderContainer {
+    @apply relative  p-[1px] w-full md:w-[500px] z-10 overflow-hidden;
+  }
+
+  .GradientDiv {
+    @apply absolute inset-0 z-20 w-[500px] h-[500px] -translate-y-1/2 rotate-45 bg-blue-800;
+  }
+
+  .selectedPage {
+    @apply bg-black/75 px-2 h-full backdrop-blur-lg rounded-sm absolute bottom-0 left-0 right-0 z-[-10]  text-white;
+  }
+
+  .unSelectedPage {
+    @apply px-2;
+  }
+
+  .contactMep {
+    @apply text-[16px] font-Josefin;
+  }
+
+  .SourceCodeDemo {
+    @apply w-[100px] text-[13px] py-1 rounded-sm text-white bg-gray-900;
+  }
+}
