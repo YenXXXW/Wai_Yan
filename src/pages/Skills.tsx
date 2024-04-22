@@ -5,13 +5,13 @@ import { Skillset } from "../lib/skillsData";
 const Skills = forwardRef<HTMLDivElement>(function Skills(_, ref) {
   return (
     <div
-      className="py-5 md:py-20 snap-start px-[5%] lg:px-[10%]"
+      className="py-[5%] md:py-[10%] lg:py-[20%] snap-start px-[5%] lg:px-[10%]"
       ref={ref}
       id={"Skills"}
     >
       <h1>Skills</h1>
       <Reveal>
-        <div className=" w-full grid grid-cols-2 sm:grid-cols-3 md:grid-cols-5 lg:grid-cols-6 mt-10 lg:mt-14 gap-3 lg:gap-5 ">
+        <div className=" w-full grid grid-cols-2 sm:grid-cols-4 md:grid-cols-5 lg:grid-cols-6 mt-10 lg:mt-14 gap-3 lg:gap-5 ">
           {Skillset.map((skill) => (
             <div
               key={skill.name}
