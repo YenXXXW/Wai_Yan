@@ -1,8 +1,13 @@
 import { IconType } from "react-icons";
-import { FaReact } from "react-icons/fa";
-import { BiLogoTypescript, BiLogoJavascript } from "react-icons/bi";
+import { FaReact, FaNodeJs, FaPython } from "react-icons/fa";
+import {
+  BiLogoTypescript,
+  BiLogoJavascript,
+  BiLogoRedux,
+} from "react-icons/bi";
 import { SiFramer, SiTailwindcss, SiPrisma, SiMongodb } from "react-icons/si";
 import { TbBrandNextjs } from "react-icons/tb";
+import { GrMysql } from "react-icons/gr";
 
 export interface skills {
   icon: IconType;
@@ -11,7 +16,7 @@ export interface skills {
   name: string;
 }
 
-export const Skills: skills[] = [
+export const Skillset: skills[] = [
   {
     icon: BiLogoJavascript,
     iconColor: "text-[#E8D44D]",
@@ -56,8 +61,32 @@ export const Skills: skills[] = [
   },
   {
     icon: SiFramer,
-    iconColor: "black",
+    iconColor: "text-black",
     size: 27,
     name: "Framer",
+  },
+  {
+    icon: FaPython,
+    iconColor: "text-blue-400",
+    size: 27,
+    name: "Python",
+  },
+  {
+    icon: BiLogoRedux,
+    iconColor: "text-purple-500",
+    size: 27,
+    name: "Redux",
+  },
+  {
+    icon: FaNodeJs,
+    iconColor: "text-black",
+    size: 27,
+    name: "node.js",
+  },
+  {
+    icon: GrMysql,
+    iconColor: "text-blue-500",
+    size: 27,
+    name: "MySQL",
   },
 ];

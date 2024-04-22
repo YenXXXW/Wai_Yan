@@ -53,7 +53,7 @@ html {
   }
 
   .contactMep {
-    @apply text-[16px] font-Josefin text-sm lg:text-base;
+    @apply text-[16px] font-Josefin text-sm lg:text-[18px];
   }
 
   .SourceCodeDemo {

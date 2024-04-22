@@ -2,16 +2,16 @@ import { useEffect, useState } from "react";
 import { motion } from "framer-motion";
 
 export const Navbar = ({ visiblePage }: { visiblePage: string | null }) => {
-  const tabs = ["Home", "About", "Projects", "Contact"];
+  const tabs = ["Home", "About", "Skills", "Projects", "Contact"];
 
   useEffect(() => {
-    for (let i = 3; i >= 0; i--) {
+    for (let i = tabs.length - 1; i >= 0; i--) {
       setSelectedPage(tabs[i]);
     }
     if (visiblePage) setSelectedPage(visiblePage);
   }, [visiblePage]);
 
-  const [selectedPage, setSelectedPage] = useState(tabs[3]);
+  const [selectedPage, setSelectedPage] = useState(tabs[tabs.length - 1]);
 
   return (
     <nav
