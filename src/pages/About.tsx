@@ -8,7 +8,7 @@ const About = forwardRef<HTMLDivElement>((_, ref) => {
     <div className="px-[5%] md:px-[10%] pt-10 h-screen " id="About" ref={ref}>
       <h1>About</h1>
 
-      <div className="mt-5 flex flex-col-reverse m:flex-row h-[90%] justify-between items-center">
+      <div className="mt-5 flex flex-col-reverse md:flex-row h-[90%] justify-between items-center0">
         <div className="flex flex-col px-3 gap-3">
           <Reveal small={true}>
             <h3 className="text-2xl text-blue-800">Who am I</h3>
@@ -50,10 +50,9 @@ const About = forwardRef<HTMLDivElement>((_, ref) => {
             </Reveal>
           </div>
         </div>
-        <img
-          src={Profile}
-          className="w-full h-[220px] md:w-[350px] md:h-[280px] rounded-md"
-        />
+        <div className="w-[200px] h-[220px] md:w-[350px] md:h-[300px]  rounded-md">
+          <img src={Profile} className="object-fill" />
+        </div>
       </div>
     </div>
   );
