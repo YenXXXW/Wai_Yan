@@ -11,7 +11,7 @@ const Hero = forwardRef<HTMLDivElement>((_, ref) => {
       initial={{ opacity: 0 }}
       animate={{ opacity: 1 }}
       transition={{ delay: 0.5 }}
-      className="flex flex-col md:flex-row px-[5%] md:px-[10%] md:text-center md:h-screen pt-[5%] lg:pt-[17%] gap-5"
+      className="flex flex-col sm:flex-row px-[5%] md:px-[10%] md:text-center md:h-screen pt-[5%] lg:pt-[17%] gap-5"
       id="Home"
     >
       <div className="lg:basis-1/2 flex  items-center justify-center">
