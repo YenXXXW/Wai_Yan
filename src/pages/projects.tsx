@@ -14,7 +14,7 @@ const ProjectCard = ({
     <div className=" my-10 flex flex-col sm:flex-row gap-[30px] shadow-lg">
       <img
         src={image}
-        className="rounded-md w-[200px] h-[150px] object-contain lg:w-[330px] md:h-[210px] "
+        className="rounded-md w-full sm:w-[200px] sm:h-[150px] object-contain lg:w-[330px] md:h-[210px] "
       />
       <div className="py-2 gap-3 flex flex-col justify-between max-w-[700px]">
         <div className="flex flex-col gap-3">

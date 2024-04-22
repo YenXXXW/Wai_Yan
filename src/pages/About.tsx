@@ -50,7 +50,7 @@ const About = forwardRef<HTMLDivElement>((_, ref) => {
             </Reveal>
           </div>
         </div>
-        <div className="w-[200px] h-[220px] md:w-[350px] md:h-[300px]  rounded-md">
+        <div className="w-full sm:w-[200px] sm:h-[220px] md:w-[350px] md:h-[300px]  rounded-md">
           <img src={Profile} className="object-fill" />
         </div>
       </div>
