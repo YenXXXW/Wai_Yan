@@ -72,12 +72,12 @@ const Contact = forwardRef<HTMLDivElement>(function Contact(_, contactRef) {
     <div
       ref={contactRef}
       id="Contact"
-      className="md:px-[10%] sm:h-screen p-[5%] flex flex-col gap-10 justify-between  "
+      className="lg:px-[10%] w-full lg:h-screen p-[5%] flex flex-col gap-10 justify-between"
     >
       <h1>Contact</h1>
-      <div className="flex flex-col md:flex-row justify-between">
-        <div className="pl-5 flex flex-col  pb-[5%]  h-full">
-          <h3 className="text-3xl font-bold text-blue-700">Wai Yan</h3>
+      <div className="flex flex-col sm:flex-row w-full gap-5 justify-between">
+        <div className="pl-5 flex flex-col w-[40%] md:w-[50%] pb-[5%]  h-full">
+          <h3 className="text-3xl font-bold">Wai Yan</h3>
 
           <p className="contactMep mt-5">Front-End developer</p>
 
@@ -120,7 +120,7 @@ const Contact = forwardRef<HTMLDivElement>(function Contact(_, contactRef) {
         </div>
 
         <form
-          className="font-sans flex flex-col gap-4 relative"
+          className="sm:basis-[60%] md:basis-1/2 font-sans flex flex-col gap-4 relative"
           onSubmit={(e) => handleSubmit(e)}
           ref={form}
         >

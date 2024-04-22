@@ -14,9 +14,9 @@ const ProjectCard = ({
     <div className=" my-10 flex flex-col md:flex-row gap-[30px] shadow-lg">
       <img
         src={image}
-        className="rounded-md w-full md:w-[330px] md:h-[210px]"
+        className="rounded-md w-[200px] h-[150px] object-contain lg:w-[330px] md:h-[210px] "
       />
-      <div className="py-2 flex flex-col justify-between max-w-[700px]">
+      <div className="py-2 gap-3 flex flex-col justify-between max-w-[700px]">
         <div className="flex flex-col gap-3">
           <Reveal small={true}>
             <h3>{title}</h3>
@@ -54,7 +54,7 @@ const ProjectCard = ({
 const Projects = forwardRef<HTMLDivElement>(function Projects(_, ref) {
   return (
     <div
-      className="pt-10 snap-start px-[5%] sm:px-[10%] min-h-screen"
+      className="pt-10 snap-start px-[5%] lg:px-[10%] min-h-screen"
       id="Projects"
       ref={ref}
     >

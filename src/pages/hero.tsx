@@ -11,10 +11,10 @@ const Hero = forwardRef<HTMLDivElement>((_, ref) => {
       initial={{ opacity: 0 }}
       animate={{ opacity: 1 }}
       transition={{ delay: 0.5 }}
-      className="flex flex-col md:flex-row px-[5%] md:px-[10%] md:text-center h-screen pt-[17%]"
+      className="flex flex-col md:flex-row px-[5%] md:px-[10%] md:text-center md:h-screen pt-[5%] lg:pt-[17%] gap-5"
       id="Home"
     >
-      <div className="md:basis-1/2 flex items-center justify-center">
+      <div className="lg:basis-1/2 flex  items-center justify-center">
         <img
           src={"https://media.tenor.com/CigpzapemsoAAAAi/hi-robot.gif"}
           className="w-[250px] md:w-[300px] "
@@ -36,14 +36,14 @@ const Hero = forwardRef<HTMLDivElement>((_, ref) => {
         </Reveal>
 
         <Reveal>
-          <p className="py-2 md:py-4 text-black/95 text-start m-auto">
+          <p className="py-2 w-full lg:py-4 text-black/95 text-start m-auto">
             Crafting seamless digital experiences with innovative designs and
             cutting-edge technologies, I bring ideas to life as a frontend web
             developer.
           </p>
         </Reveal>
 
-        <div className=" mx-auto  mt-5 md:mt-10">
+        <div className=" mx-auto  mt-5 lg:mt-10">
           <Reveal>
             <div className="flex items-center justify-between w-[330px]  py-4">
               <a

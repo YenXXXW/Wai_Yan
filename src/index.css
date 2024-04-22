@@ -13,13 +13,13 @@ html {
     @apply bg-white font-sans dark:bg-black dark:text-white;
   }
   h1 {
-    @apply text-4xl sm:text-5xl md:text-6xl font-bold font-Josefin;
+    @apply text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-bold font-Josefin;
   }
   h2 {
-    @apply text-3xl sm:text-4xl font-bold;
+    @apply text-xl sm:text-2xl md:text-3xl lg:text-4xl font-bold font-Josefin;
   }
   h3 {
-    @apply text-2xl sm:text-3xl font-semibold;
+    @apply text-lg sm:text-xl md:text-2xl lg:text-3xl font-semibold;
   }
   li {
     @apply relative;
@@ -37,7 +37,7 @@ html {
   }
 
   .GradinentBorderContainer {
-    @apply relative  p-[1px] w-full md:w-[500px] z-10 overflow-hidden;
+    @apply relative  p-[1px] w-full lg:w-[500px] z-10 overflow-hidden;
   }
 
   .GradientDiv {
@@ -53,7 +53,7 @@ html {
   }
 
   .contactMep {
-    @apply text-[16px] font-Josefin;
+    @apply text-[16px] font-Josefin text-sm lg:text-base;
   }
 
   .SourceCodeDemo {
