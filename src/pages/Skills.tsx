@@ -11,7 +11,7 @@ const Skills = forwardRef<HTMLDivElement>(function Skills(_, ref) {
     >
       <h1>Skills</h1>
       <Reveal>
-        <div className=" w-full grid grid-cols-2 sm:grid-cols-3 md:grid-cols-5 lg:grid-cols-6 mt-10 lg:mt-14 gap- lg:gap-5 ">
+        <div className=" w-full grid grid-cols-2 sm:grid-cols-3 md:grid-cols-5 lg:grid-cols-6 mt-10 lg:mt-14 gap-3 lg:gap-5 ">
           {Skillset.map((skill) => (
             <div
               key={skill.name}

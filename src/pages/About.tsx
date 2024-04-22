@@ -4,11 +4,11 @@ import Reveal from "../components/Reveal";
 
 const About = forwardRef<HTMLDivElement>((_, ref) => {
   return (
-    <div className="px-[5%] md:px-[10%] pt-10 h-screen " id="About" ref={ref}>
+    <div className="px-[5%] md:px-[7%] lg:px-[10%] pt-10" id="About" ref={ref}>
       <h1>About</h1>
 
-      <div className="mt-5 lg:mt-14 flex flex-col-reverse sm:flex-row h-[90%] justify-between items-center0">
-        <div className="flex flex-col px-3 gap-3">
+      <div className="mt-5 lg:mt-14 flex flex-col-reverse sm:flex-row h-[90%] justify-between items-center gap-3">
+        <div className="flex flex-col px-3 gap-5 sm:basis-[70%] ">
           <Reveal small={true}>
             <h2 className=" text-blue-800">Who am I</h2>
           </Reveal>
