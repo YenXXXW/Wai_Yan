@@ -72,7 +72,7 @@ const Contact = forwardRef<HTMLDivElement>(function Contact(_, contactRef) {
     <div
       ref={contactRef}
       id="Contact"
-      className="md:px-[10%] md:h-screen p-[5%] flex flex-col gap-10 justify-between  "
+      className="md:px-[10%] sm:h-screen p-[5%] flex flex-col gap-10 justify-between  "
     >
       <h1>Contact</h1>
       <div className="flex flex-col md:flex-row justify-between">
