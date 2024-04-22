@@ -3,7 +3,7 @@ import Profile from "../assets/photo.jpg";
 import Reveal from "../components/Reveal";
 import { Skills } from "../lib/skillsData";
 
-const About = forwardRef<HTMLDivElement>((props, ref) => {
+const About = forwardRef<HTMLDivElement>((_, ref) => {
   return (
     <div className="px-[5%] md:px-[10%] pt-10 h-screen " id="About" ref={ref}>
       <h1>About</h1>

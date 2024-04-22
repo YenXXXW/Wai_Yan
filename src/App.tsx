@@ -24,7 +24,7 @@ function App() {
         if (entry.isIntersecting) {
           setVisiblePage(entry.target.id); // Assuming each page has a unique ID
         }
-      });
+      }, options);
     }, options);
 
     if (heroRef.current) {

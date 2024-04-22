@@ -51,7 +51,7 @@ const ProjectCard = ({
   );
 };
 
-const Projects = forwardRef<HTMLDivElement>(function Projects(props, ref) {
+const Projects = forwardRef<HTMLDivElement>(function Projects(_, ref) {
   return (
     <div
       className="pt-10 snap-start px-[5%] md:px-[10%] min-h-screen"

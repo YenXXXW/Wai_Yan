@@ -4,7 +4,7 @@ import { motion } from "framer-motion";
 import Reveal from "../components/Reveal";
 import { forwardRef } from "react";
 
-const Hero = forwardRef<HTMLDivElement>((props, ref) => {
+const Hero = forwardRef<HTMLDivElement>((_, ref) => {
   return (
     <motion.div
       ref={ref}

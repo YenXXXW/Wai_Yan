@@ -5,7 +5,7 @@ import { FaLinkedin } from "react-icons/fa";
 import { FaSquareFacebook } from "react-icons/fa6";
 import emailjs from "@emailjs/browser";
 
-const Contact = forwardRef<HTMLDivElement>(function Contact(props, contactRef) {
+const Contact = forwardRef<HTMLDivElement>(function Contact(_, contactRef) {
   const form = useRef<HTMLFormElement | null>(null);
 
   // for email successfully sent
