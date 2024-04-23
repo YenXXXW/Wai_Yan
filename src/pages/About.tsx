@@ -28,7 +28,7 @@ const About = forwardRef<HTMLDivElement>((_, ref) => {
             </p>
           </Reveal>
           <Reveal>
-            <p className="font-sans lg:text-xl font-bold">
+            <p className="font-sans lg:text-xl font-bold text-blue-700">
               I craft responsive, interactive user interfaces, ensuring
               exceptional web experiences through meticulous design and
               development.

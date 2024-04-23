@@ -198,7 +198,7 @@ const Contact = forwardRef<HTMLDivElement>(function Contact(_, contactRef) {
               transition={{ delay: 1.5, duration: 0.35, type: "none" }}
               initial="hidden"
               animate={mainControls}
-              className="bg-blue-800 w-full text-white py-1 text-sm hover:scale-50  duration-300"
+              className="bg-blue-800 w-full lg:w-[500px] text-white py-1 text-sm hover:scale-50  duration-300"
             >
               Submit
             </motion.button>

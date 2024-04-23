@@ -14,12 +14,7 @@ const Hero = forwardRef<HTMLDivElement>((_, ref) => {
       className="flex flex-col sm:flex-row px-[5%] md:px-[10%] md:text-center md:h-screen pt-[5%] lg:pt-[17%] gap-5"
       id="Home"
     >
-      <div className="lg:basis-1/2 flex  items-center justify-center">
-        <img
-          src={"https://media.tenor.com/CigpzapemsoAAAAi/hi-robot.gif"}
-          className="w-[250px] md:w-[300px] "
-        />
-      </div>
+      <div className="lg:basis-1/2 flex  items-center justify-center"></div>
       <div>
         <Reveal>
           <p className="uppercase text-sm tracking-widest text-gray-900 mt-4">

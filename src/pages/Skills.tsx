@@ -5,7 +5,7 @@ import { Skillset } from "../lib/skillsData";
 const Skills = forwardRef<HTMLDivElement>(function Skills(_, ref) {
   return (
     <div
-      className="py-[5%] md:py-[10%] lg:py-[20%] snap-start px-[5%] lg:px-[10%]"
+      className="py-[5%] md:py-[10%] lg:py-[15%] snap-start px-[5%] lg:px-[10%]"
       ref={ref}
       id={"Skills"}
     >
