@@ -22,16 +22,13 @@ const About = forwardRef<HTMLDivElement>((_, ref) => {
             <p className="max-w-[600px] contactMep">
               With a background in electronics engineering, I've honed strong
               analytical and problem-solving skills. Now, I'm diving into
-              front-end development, specializing in React.js and Next.js. I'm
-              passionate about creating user-friendly interfaces and eager to
-              collaborate on innovative web projects.
+              front-end development, specializing in React.js and Next.js.
             </p>
           </Reveal>
           <Reveal>
-            <p className="font-sans lg:text-xl font-bold text-blue-700">
-              I craft responsive, interactive user interfaces, ensuring
-              exceptional web experiences through meticulous design and
-              development.
+            <p className="font-sans lg:text-xl font-semibold text-blue-700">
+              I'm passionate about creating user-friendly interfaces and eager
+              to collaborate on innovative web projects.
             </p>
           </Reveal>
         </div>

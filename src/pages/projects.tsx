@@ -11,7 +11,7 @@ const ProjectCard = ({
   techs,
 }: projectDataType) => {
   return (
-    <div className=" my-10 flex flex-col sm:flex-row gap-[30px] shadow-lg">
+    <div className=" my-10 flex flex-col sm:flex-row gap-[30px] shadow-lg ">
       <img
         src={image}
         className="rounded-md w-full sm:w-[200px] sm:h-[150px] object-contain lg:w-[330px] md:h-[210px] "

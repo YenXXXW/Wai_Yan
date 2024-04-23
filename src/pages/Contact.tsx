@@ -76,8 +76,8 @@ const Contact = forwardRef<HTMLDivElement>(function Contact(_, contactRef) {
     >
       <h1>Contact</h1>
       <div className="flex flex-col sm:flex-row w-full gap-5 justify-between">
-        <div className="pl-5 flex flex-col w-[40%] md:w-[50%] pb-[5%]  h-full">
-          <h3 className="text-3xl font-bold">Wai Yan</h3>
+        <div className="pl-5 flex flex-col w-[40%] md:w-[50%] pb-[5%] gap-2  h-full">
+          <h3 className="text-3xl font-bold text-blue-700">Wai Yan</h3>
 
           <p className="contactMep mt-5">Front-End developer</p>
 
@@ -86,10 +86,10 @@ const Contact = forwardRef<HTMLDivElement>(function Contact(_, contactRef) {
             <span className="block">Conatct me and let's talk</span>
           </p>
 
-          <h3 className="mt-10 mb-3 px-3">Connect with me</h3>
+          <h3 className="mt-10 mb-3 px-3 text-blue-700">Connect with me</h3>
 
-          <div className="flex w-full justify-between">
-            <div className="p-3 cursor-pointer hover:scale-105 ease-in duration-300">
+          <div className="flex w-[200px] justify-between">
+            <div className="p-3 cursor-pointer hover:scale-105 ease-in duration-300  text-blue-700">
               <a
                 href="https://www.linkedin.com/in/wai-yan-0a87b82ba"
                 target="_blank"
@@ -98,7 +98,7 @@ const Contact = forwardRef<HTMLDivElement>(function Contact(_, contactRef) {
                 <FaLinkedin size={22} />
               </a>
             </div>
-            <div className="p-3 cursor-pointer hover:scale-105 ease-in duration-300">
+            <div className="p-3 cursor-pointer hover:scale-105 ease-in duration-300  text-blue-700">
               <a
                 href="https://www.facebook.com/profile.php?id=100016784135387&mibextid=AEUHqQ"
                 target="_blank"
@@ -107,7 +107,7 @@ const Contact = forwardRef<HTMLDivElement>(function Contact(_, contactRef) {
                 <FaSquareFacebook size={22} />
               </a>
             </div>
-            <div className="p-3 cursor-pointer hover:scale-105 ease-in duration-300">
+            <div className="p-3 cursor-pointer hover:scale-105 ease-in duration-300  text-blue-600">
               <a
                 href="mailto:yenxxxw@gmail.com"
                 target="_blank"
