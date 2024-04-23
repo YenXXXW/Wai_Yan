@@ -17,7 +17,7 @@ function App() {
   const options = {
     root: null,
     rootMargin: "0px",
-    threshold: 0.35,
+    threshold: [0.25, 0.75],
   };
 
   useEffect(() => {
