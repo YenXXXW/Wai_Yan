@@ -11,7 +11,7 @@ const Hero = forwardRef<HTMLDivElement>((_, ref) => {
       initial={{ opacity: 0 }}
       animate={{ opacity: 1 }}
       transition={{ delay: 0.5 }}
-      className="w-full flex flex-col justify-center sm:justify-normal px-[5%] sm:pt-[5%] h-screen sm:h-auto lg:h-screen gap-5 relative"
+      className="w-full flex flex-col justify-center sm:justify-normal px-[10%] sm:pt-[10%] lg:pt-[15%]  h-screen sm:h-auto lg:h-screen gap-5 relative"
       id="Home"
     >
       <div className="md:w-[60%]">
@@ -37,9 +37,9 @@ const Hero = forwardRef<HTMLDivElement>((_, ref) => {
           </p>
         </Reveal>
 
-        <div className=" mx-auto  mt-5 lg:mt-10">
+        <div className=" mx-auto  mt-5 ">
           <Reveal>
-            <div className="flex items-center justify-between w-[330px]  py-4">
+            <div className="flex items-center justify-between w-[330px]">
               <a
                 href="https://www.linkedin.com/in/wai-yan-0a87b82ba/"
                 target="_blank"
@@ -73,7 +73,7 @@ const Hero = forwardRef<HTMLDivElement>((_, ref) => {
           </Reveal>
         </div>
         <a href={"#About"}>
-          <button className="text-sm sm:text-base z-10 w-[140px] mt-10 h-[50px] bg-black text-white rounded-md shadow-2xl">
+          <button className="text-sm sm:text-base z-10 w-[140px] mt-5 h-[50px] bg-black text-white rounded-md shadow-2xl">
             ABOUT ME
           </button>
         </a>
