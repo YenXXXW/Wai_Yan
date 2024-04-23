@@ -17,7 +17,7 @@ function App() {
   const options = {
     root: null,
     rootMargin: "0px",
-    threshold: [0.35],
+    threshold: 0.35,
   };
 
   useEffect(() => {
@@ -25,6 +25,7 @@ function App() {
       entries.forEach((entry) => {
         if (entry.isIntersecting) {
           setVisiblePage(entry.target.id); // Assuming each page has a unique ID
+          console.log(entry.target.id);
         }
       }, options);
     }, options);

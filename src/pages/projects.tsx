@@ -51,7 +51,7 @@ const ProjectCard = ({
   );
 };
 
-const Projects = forwardRef<HTMLDivElement>(function Projects(_, ref) {
+const Projects = forwardRef<HTMLDivElement>((_, ref) => {
   return (
     <div
       className="pt-10 snap-start px-[5%] lg:px-[10%] min-h-screen"
@@ -60,20 +60,18 @@ const Projects = forwardRef<HTMLDivElement>(function Projects(_, ref) {
     >
       <h1 className=" font-Josefin mb-10">Projects</h1>
       <div className="px-[5%]">
-        <div>
-          {projectData.map((project) => (
-            <React.Fragment key={project.title}>
-              <ProjectCard
-                title={project.title}
-                image={project.image}
-                description={project.description}
-                liveDemo={project.liveDemo}
-                sourceCode={project.sourceCode}
-                techs={project.techs}
-              />
-            </React.Fragment>
-          ))}
-        </div>
+        {projectData.map((project) => (
+          <div key={project.title}>
+            <ProjectCard
+              title={project.title}
+              image={project.image}
+              description={project.description}
+              liveDemo={project.liveDemo}
+              sourceCode={project.sourceCode}
+              techs={project.techs}
+            />
+          </div>
+        ))}
       </div>
     </div>
   );
