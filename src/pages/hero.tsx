@@ -11,7 +11,7 @@ const Hero = forwardRef<HTMLDivElement>((_, ref) => {
       initial={{ opacity: 0 }}
       animate={{ opacity: 1 }}
       transition={{ delay: 0.5 }}
-      className="w-full px-[5%]  lg:h-screen pt-[5%]  gap-5 relative"
+      className="w-full px-[5%] pt-[10%] sm:pt-[5%] lg:h-screen   gap-5 relative"
       id="Home"
     >
       <div className="w-full h-full relative lg:pt-[5%] md:px-[5%]">

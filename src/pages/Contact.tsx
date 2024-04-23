@@ -76,12 +76,12 @@ const Contact = forwardRef<HTMLDivElement>(function Contact(_, contactRef) {
     >
       <h1>Contact</h1>
       <div className="flex flex-col sm:flex-row w-full gap-5 justify-between">
-        <div className="pl-5 flex flex-col w-[40%] md:w-[50%] pb-[5%] gap-2  h-full">
+        <div className="pl-5 flex flex-col sm:w-[50%] pb-[5%] gap-2  h-full">
           <h3 className="text-3xl font-bold text-blue-700">Wai Yan</h3>
 
-          <p className="contactMep mt-5">Front-End developer</p>
+          <p className=" mt-5">Front-End developer</p>
 
-          <p className="contactMep">
+          <p>
             I'm avialabe for freelance and full-time options.
             <span className="block">Conatct me and let's talk</span>
           </p>

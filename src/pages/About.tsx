@@ -13,7 +13,7 @@ const About = forwardRef<HTMLDivElement>((_, ref) => {
             <h2 className=" text-blue-800">Who am I</h2>
           </Reveal>
           <Reveal small={true}>
-            <p className="max-w-[600px] contactMep">
+            <p className="max-w-[600px] text-sm md:text-lg lg:text-xl">
               I am a 5th-year ECE student at Myanmar Institute of Information
               Technology.
             </p>
