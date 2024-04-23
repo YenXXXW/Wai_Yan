@@ -11,14 +11,10 @@ const Hero = forwardRef<HTMLDivElement>((_, ref) => {
       initial={{ opacity: 0 }}
       animate={{ opacity: 1 }}
       transition={{ delay: 0.5 }}
-      className="w-full px-[5%] pt-[10%] sm:pt-[5%] lg:h-screen   gap-5 relative"
+      className="w-full px-[5%] pt-[10%] sm:pt-[5%] h-screen md:h-auto lg:h-screen   gap-5 relative"
       id="Home"
     >
       <div className="w-full h-full relative lg:pt-[5%] md:px-[5%]">
-        {/* <img
-          src={BlueBottom}
-          className="hidden md:block absolute w-full h-full top-0 left-0 transfrom -scale-x-100"
-        /> */}
         <div className="md:w-[60%]">
           <Reveal>
             <p className="uppercase text-sm tracking-widest text-gray-900 mt-4">
